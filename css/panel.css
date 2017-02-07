@@ -1,0 +1,232 @@
+html,body {
+	font-family: Verdana, Arial, sans-serif /*{ffDefault}*/;
+	/*font-size: 1.1em{fsDefault}*/;
+	background-color: #fff;
+	/*background-image: url(../img/borrow.jpg);*/
+	background-repeat: no-repeat;
+	background-position: center top;
+	/*overflow-y: auto;*/
+	font-size: 12px;
+	line-height: 12px;
+	margin: 0; /* Remove body margin/padding */
+	padding: 0;
+	overflow: hidden; /* Remove scroll bars on browser window */
+}
+
+#nav1 a {
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 42px;
+	color: #000;
+}
+
+#nav1 img {
+	display: none;
+}
+
+#nav1 ul {
+	marigin: 0px auto;
+	width: 200px;
+}
+
+#nav1 li {
+	width: 182px;
+	height: 42px;
+	text-align: center;
+	vertical-align: text-bottom;
+	/*margin: 22px auto;
+	padding-top: 18px;
+	background-image: url(../img/images/button.png);*/
+}
+
+
+/*.splitter {
+	height: 100%;
+	margin: 0px;
+	apdding:0px;
+	border: 0px solid #bdb;
+	background: #fff;
+}*/
+#tree{
+	  float:right;
+      width: 30px;
+      height: auto;
+      /*margin-left: 5px;*/
+      padding-top:8px;
+      
+}
+#MySplitter {
+	border: 0px solid #669;
+	min-width: 500px; /* Splitter can't be too thin ... */
+	min-height: 300px; /* ... or too flat */
+	height: 100%;
+}
+
+#LeftPane {
+	width:270px;
+	background-image: url(../img/images/sidebar-shadow.png);
+	background-repeat: repeat-y;
+	background-position: right top;
+	background-color: #F0F0F0;
+	overflow: auto;
+	
+}
+#RightPane { /* Top nested in right pane */
+	width: 1000px; /* Initial height*/
+    min-width: 1020px;
+    min-height: 400px;
+	background-repeat: repeat-y;
+	background-position: right top;
+	background-color: #FFF;
+	overflow: auto;
+}
+#TopPane { /* Top nested in right pane */
+	height: 500px; /* Initial height */
+	min-height: 75px; /* Minimum height */
+}
+
+
+#BottomPane {
+	background: #eef;
+	min-height: 100px;
+}
+
+/***********************panel*************************/
+#header {
+	position: relative;
+	min-width: 100%;
+	min-height: 26px;
+	border-bottom: 3px solid #Fff;
+	margin: 0px;
+	padding: 0px;
+	line-height: 26px;
+	border-bottom-color: #3c78b5;
+	background-color: #003366;
+	/*background-image: url(../img/images/header.png);*/
+	background-repeat: repeat;
+	z-index: 1;
+}
+
+#panel_login {
+	position: relative;
+	color: #fff;
+	float: right;
+	width: auto;
+	height: 26px;
+	margin-right: 5px;
+}
+
+#panel_login  a {
+	line-height: 26px;
+	color: #fff;
+}
+
+#splitter {
+	background-color: #000;
+	min-width: 600px;
+	min-height: 300px;
+	height: 100%;
+}
+
+.vsplitbar {
+	width: 5px;
+	background: #CCC;
+	background-image: url(../img/images/vgrabber.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.hsplitbar {
+	height: 5px;
+	background: #CCC;
+	background-image: url(../img/images/vgrabber.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#splitter-content {
+	background-color: #fff;
+}
+
+#page_title {
+	display: none;
+	width: 1080px;
+	height: 60px;
+	background-color: #999;
+}
+
+#panel {
+	margin: 24px;
+	height: auto;
+	border: 0px solid #cccccc;
+}
+
+#footer {
+	position:relative;
+	bottom: 26px;
+	width: 100%;
+	height: 26px;
+	border-top: 1px solid #cccccc;
+	background-color: #f0f0f0;
+	text-align: center;
+	z-index:100;
+}
+	/* Splitbar styles; these are the default class names */
+.ui-state-default
+	{
+	background-color:#88c
+    }
+
+.ui-state-hover {
+	background-color: #bbf
+    }
+
+.ui-state-highlight {
+	background-color: #68f
+    }
+
+.ui-state-error {
+	background-color: #eaa
+    }
+
+.splitter-pane {
+	overflow: auto;
+    }
+
+.splitter-bar-vertical {
+	width: 5px;
+	background: #CCC;
+	background-image: url(../img/images/vgrabber.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.splitter-bar-vertical-docked {
+	width:5px;
+    background-image: url(../img/images/vgrabber.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.splitter-bar-horizontal {
+	height: 6px;
+	background: #CCC;
+	background-image: url(../img/images/vgrabber.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.splitter-bar-horizontal-docked {
+	height: 10px;
+	background-image: url(img/hdockbar-trans.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.splitter-bar.ui-state-highlight {
+	opacity: 0.7;
+}
+.splitter-iframe-hide {
+	visibility: hidden;
+}
+}

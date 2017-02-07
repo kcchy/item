@@ -1,0 +1,96 @@
+@CHARSET "UTF-8";
+
+.body {
+	width: auto;
+	height: auto;
+	font-size: 12px;
+}
+
+#config {
+	backgroud-color: blue;
+	width: auto;
+	margin: 0px auto;
+}
+
+#itemmanage {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	width: 650px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+#itemmanage tr.alt td {
+	color: #000000;
+	background-color: #EAF2D3;
+}
+
+#itemmanage td {
+	width: auto;
+	background-color: #EAF2D3;
+	font-size: 12px;
+}
+
+#itemmanage th {
+	width: auto;
+	background-color: #EEE;
+}
+
+input[type=text] {
+	width: 60px;
+}
+
+#usermanage {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	/*background-color:#000;*/
+	margin: 0px auto;
+	text-align: left;
+	width: 700px;
+	height: 500px;
+}
+
+#action {
+
+	width: 1000px;
+	text-align: left;
+	margin: 0px auto;
+	/*background-color:blue;*/
+}
+
+#feedback {
+	maigin-left:4px;
+	font-size: 1.4em;
+	/*display:none;*/
+}
+#feedback span{
+	margin-left:12px;
+	font-size: 0.8em;
+	background:#fff;
+	padding-left:2px;
+	
+}
+h2{
+	display:none;
+}
+#users .ui-selecting {
+	background: #FECA40;
+}
+
+#users .ui-selected {
+	background: #F39814;
+	color: white;
+}
+#users-contain{
+	
+}
+#users  thead{
+	position:relative;
+	
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 60%;
+}
+
+#users tr{
+	
+}
